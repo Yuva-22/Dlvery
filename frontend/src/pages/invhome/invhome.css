@@ -23,14 +23,43 @@
     /* box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47); */
     /* box-shadow: 2px 4px 10px 1px rgba(255, 255, 94, 0.926); */
     box-shadow: 2px 4px 10px 1px black;
-    height:250px;
+    height:120px;
     width:250px;
     border-radius: 10px;
     margin-left:80px;
     margin-right: 80px;
     margin-bottom: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap:10px;
 }
 
+.ficon
+{
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.right
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.title
+{
+    font-weight: 400;
+    text-align: left;
+}
+
+.val
+{
+    font-weight: 600;
+    font-size: 25px;
+}
 
 @media screen and (max-width:900px){
     .widget

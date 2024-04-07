@@ -3,6 +3,7 @@ import Home from './pages/home/home';
 import Invlogin from './pages/invlogin/invlogin';
 import Dellogin from './pages/dellogin/dellogin';
 import InvHome from './pages/invhome/invhome';
+import Invproducts from './pages/invproducts/invproducts';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="invlogin">
             <Route index element={<Invlogin />} />
             <Route path="home" element={<InvHome />} />
+            <Route path="products" element={<Invproducts />} />
           </Route>
           
           <Route path="dellogin">

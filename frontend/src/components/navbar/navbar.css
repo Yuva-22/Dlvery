@@ -44,6 +44,11 @@
     white-space:nowrap;
 }
 
+.nav-links:hover
+{
+   color: rgba(255, 255, 94, 0.926);
+}
+
 /* @media screen and (max-width:850px){
     .NavbarItems{
         z-index:99;

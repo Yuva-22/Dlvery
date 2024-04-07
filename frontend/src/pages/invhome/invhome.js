@@ -1,6 +1,7 @@
 import React from 'react';
 import './invhome.css';
 import Navbar from '../../components/navbar/navbar';
+import InventoryIcon from '@mui/icons-material/Inventory';
 
 function invhome() {
   return (
@@ -12,34 +13,38 @@ function invhome() {
 
             <div className='widget'>
               <div className='left'>
-                <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
               </div>
               <div className='right'>
-                <span className='val'>value1</span>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
               </div>
             </div>
             <div className='widget'>
               <div className='left'>
-                <span className='title'>title2</span>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
               </div>
               <div className='right'>
-                <span className='val'>value2</span>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
               </div>
             </div>
             <div className='widget'>
               <div className='left'>
-                <span className='title'>title3</span>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
               </div>
               <div className='right'>
-                <span className='val'>value3</span>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
               </div>
             </div>
             <div className='widget'>
               <div className='left'>
-                <span className='title'>title4</span>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
               </div>
               <div className='right'>
-                <span className='val'>value4</span>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
               </div>
             </div>
             {/* <div className='widget'>
@@ -53,39 +58,94 @@ function invhome() {
 
         </div>
 
+        <div className='widget-upper'>
+
+            <div className='widget'>
+              <div className='left'>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
+              </div>
+              <div className='right'>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
+              </div>
+            </div>
+            <div className='widget'>
+              <div className='left'>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
+              </div>
+              <div className='right'>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
+              </div>
+            </div>
+            <div className='widget'>
+              <div className='left'>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
+              </div>
+              <div className='right'>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
+              </div>
+            </div>
+            <div className='widget'>
+              <div className='left'>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
+              </div>
+              <div className='right'>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
+              </div>
+            </div>
+            {/* <div className='widget'>
+              <div className='left'>
+                <span className='title'>title5</span>
+              </div>
+              <div className='right'>
+                <span className='val'>value5</span>
+              </div>
+            </div> */}
+
+        </div>
+
+        
+
 
         <div className='widget-lower'>
 
-            <div className='widget'>
+        <div className='widget'>
               <div className='left'>
-                <span className='title'>title6</span>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
               </div>
               <div className='right'>
-                <span className='val'>value6</span>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
               </div>
             </div>
             <div className='widget'>
               <div className='left'>
-                <span className='title'>title7</span>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
               </div>
               <div className='right'>
-                <span className='val'>value7</span>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
               </div>
             </div>
             <div className='widget'>
               <div className='left'>
-                <span className='title'>title8</span>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
               </div>
               <div className='right'>
-                <span className='val'>value8</span>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
               </div>
             </div>
             <div className='widget'>
               <div className='left'>
-                <span className='title'>title9</span>
+                <InventoryIcon className='ficon' style={{fontSize:60,marginTop:20}}/>
               </div>
               <div className='right'>
-                <span className='val'>value9</span>
+              <span className='title'>TOTAL NUMBER OF ITEMS IN INVENTORY</span>
+                <span className='val'>50000</span>
               </div>
             </div>
             {/* <div className='widget'>
